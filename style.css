@@ -125,11 +125,12 @@ ul li span:hover{
   
     ul li {
       font-size: 16px; /* Reduce font size for smaller screens */
-      padding: 10px 8px 8px 40px; /* Adjust padding for smaller screens */
+      padding: 12px 8px 8px 40px; /* Adjust padding for smaller screens */
     }
+
   }
   
-  /* Media Query for screens with a maximum width of 480px (typical for mobile phones) */
+  /* Media Query for screens with a maximum width of 480px (typical for mobile phones)*/
   @media (max-width: 480px) {
     .todo-app {
       padding: 20px 10px; /* Further adjust padding for smaller screens */
@@ -141,7 +142,7 @@ ul li span:hover{
   
     ul li {
       font-size: 14px; /* Reduce font size for even smaller screens */
-      padding: 8px 6px 6px 30px; /* Further adjust padding for smaller screens */
+      padding: 10px 6px 6px 45px; /* Further adjust padding for smaller screens */
     }
   }
   
@@ -157,6 +158,6 @@ ul li span:hover{
   
     ul li {
       font-size: 12px; /* Reduce font size for smaller mobile screens */
-      padding: 6px 4px 4px 20px; /* Further adjust padding for smaller mobile screens */
+      padding: 6px 4px 4px 45px; /* Further adjust padding for smaller mobile screens */
     }
-  }
+  } 
